@@ -15,3 +15,14 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+
+## cordova part
+cordova/node_modules
+cordova/package.json
+cordova/package-lock.json
+cordova/platforms/*
+!cordova/platforms/.gitkeep
+cordova/plugins/*
+!cordova/plugins/.gitkeep
+cordova/www/*
+!cordova/www/.gitkeep
