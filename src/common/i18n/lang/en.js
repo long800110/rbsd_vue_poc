@@ -1,7 +1,7 @@
 module.exports = {
   home: {
-    title: 'Credit Card Demo',
-    discription: 'This is a demo regarding credit card online application.',
+    title: 'Demo',
+    discription: 'This is a demo',
     click_me: 'CLICK ME'
   }
 }

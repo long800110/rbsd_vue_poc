@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/home/Home'
-import CreditCardIntro from '@/components/card/intro/CreditCardIntro'
+import Home from '@/components/aggregation/home/Home'
+import Portalling from '@/components/aggregation/portalling/Portalling'
 
 Vue.use(Router)
 
@@ -14,8 +14,8 @@ export default new Router({
     name: 'Home',
     component: Home
   }, {
-    path: '/card/intro',
-    name: 'CreditCardIntro',
-    component: CreditCardIntro
+    path: '/portalling',
+    name: 'Portalling',
+    component: Portalling
   }]
 })

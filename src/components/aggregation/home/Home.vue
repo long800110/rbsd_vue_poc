@@ -7,8 +7,10 @@
     {{ $t("home.discription") }}
   </template>
   <hr class="my-4">
-  <b-btn variant="success" :to="{ path: 'card/intro' }">{{ $t("home.click_me") }}</b-btn>
+  <b-btn variant="success" :to="{ path: 'portalling' }">{{ $t("home.click_me") }}</b-btn>
   <hr class="my-4">
+    <span class="icon-home"></span>
+    <hr class="my-4">
     <b-btn :disabled="englishButtonDisabled" variant="primary" size="sm" @click="changeLocale('en')">English</b-btn>
     <b-btn :disabled="chineseButtonDisabled" variant="danger" size="sm" @click="changeLocale('zh')">简体中文</b-btn>
 </b-jumbotron>
