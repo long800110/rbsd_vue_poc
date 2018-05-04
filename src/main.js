@@ -8,7 +8,7 @@ import i18n from '@/common/i18n'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import '@/assets/css/icomoon.css'
+import '@/assets/css/main.css'
 
 Vue.config.productionTip = false
 
